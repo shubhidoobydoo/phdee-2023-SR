@@ -1,0 +1,113 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage[letterpaper, portrait, margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=blue,
+    citecolor=black,
+}
+\usepackage{natbib}
+
+\usepackage{titlesec}
+  
+\title{Homework 2 }
+\author{Economics 7103}
+\date{Spring semester 2023}
+  
+\begin{document}
+  
+\maketitle
+
+
+Q1) The randomization seems to have worked and difference in mean seems to be unbiased.
+\begin{table}[ht]
+    \centering
+    \input{mean_py.tex}
+    \caption{Q1 Diff of Means- Python}
+    \label{tab:mean_py}
+\end{table}
+
+
+Q2
+Graph:
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=50mm]{Q2_hist.pdf}
+    \caption{Histogram}
+    \label{fig:hist_py}
+\end{figure}
+
+
+\begin{table}[ht!]
+Q3
+A.
+    \centering
+    \input{OLS_hand.tex}
+    \caption{Q3.a) OLS by hand - Python}
+    \label{tab:ols_hand}
+\end{table}
+
+
+\begin{table}[ht!]
+Q3
+B.
+    \centering
+    \input{final.tex}
+    \caption{Q3.b) OLS using SLS}
+    \label{tab:ols_sls}
+\end{table}
+
+\begin{table}[h!]
+Q3
+C.  \centering
+    \input{sampleoutput.tex}
+    \caption{Q3.c)OLS produced using Python - Statsmodel}
+    \label{tab:olssm}
+\end{table}
+
+
+
+\begin{figure}[h!]
+Q4
+Diff of Means Table - Stata:
+
+    \centering
+    \includegraphics[width=70mm]{means_stata.png}
+    \caption{Difference of Means}
+    \label{fig:means_stata}
+\end{figure}
+
+
+\begin{figure}[h!]
+Q5
+Two-way Scatter Plot:
+
+    \centering
+    \includegraphics[width=80mm]{twoway_stata.pdf}
+    \caption{Two way plot}
+    \label{fig:graph_stata}
+\end{figure}
+
+
+
+
+\begin{table}[h!]
+Q6
+    \centering
+    \input{output_stata.tex}
+    \caption{OLS produced using Stata}
+    \label{tab:statasummary}
+\end{table}
+
+
+
+\end{document}
