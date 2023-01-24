@@ -1,0 +1,9 @@
+,Control,Treatment,Comparison
+,mean/sd,mean/sd,b
+electricity,1181.33,1086.75,94.58***
+,454.31,423.96,
+sqft,1633.05,1657.55,-24.50
+,682.90,686.27,
+temp,79.89,79.89,-0.00
+,2.16,1.97,
+Observations,501,499,1000

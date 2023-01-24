@@ -14,7 +14,7 @@ local outputpath = "C:\Users\Sherry Baby\Desktop\Classes\Env-2\phdee-2023-SR\HW2
 	eststo diff: quietly estpost ttest electricity sqft temp, by(retrofit) unequal
 	esttab control treatment diff, cells("mean(pattern(1 1 0) fmt(2)) b(star pattern(0 0 1) fmt(2))" sd(pattern(1 1 0))) label nonumbers mtitles("Control" 		"Treatment" "Comparison")	
 	
-	outreg2 using table_stata.tex, label 2aster tex(frag) dec(2) replace ctitle("Summary Table")
+	esttab control treatment diff, cells("mean(pattern(1 1 0) fmt(2)) b(star pattern(0 0 1) fmt(2))" sd(pattern(1 1 0))) label nonumbers mtitles("Control" 		"Treatment" "Comparison"), using "C:\Users\Sherry Baby\Desktop\Classes\Env-2\phdee-2023-SR\HW2\output\means_stata.pdf"
 
 ***Q2 - 2 way plot
 
