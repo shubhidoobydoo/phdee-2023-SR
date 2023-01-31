@@ -1,0 +1,24 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{2}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{Coefficient}&\multicolumn{1}{c}{Marginal Effects}\\
+                    &      b/ci95         &      b/ci95         \\
+\hline
+ls                  &        0.89\sym{***}&                     \\
+                    &   0.88,0.91         &                     \\
+retrofit            &       -0.10\sym{***}&     -109.67\sym{***}\\
+                    & -0.11,-0.09         &-125.26,-94.07         \\
+lt                  &        0.28\sym{*}  &                     \\
+                    &   0.03,0.53         &                     \\
+sqft                &                     &        0.62\sym{***}\\
+                    &                     &   0.60,0.63         \\
+temp                &                     &        3.26         \\
+                    &                     &  -0.52,7.03         \\
+Constant            &       -0.77         &      -83.60         \\
+                    &  -1.89,0.35         &-386.51,219.30         \\
+\hline
+Observations        &        1000         &        1000         \\
+\hline\hline
+\end{tabular}
+}
