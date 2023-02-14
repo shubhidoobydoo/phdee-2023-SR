@@ -1,0 +1,22 @@
+		(1)	(2)
+VARIABLES	LABELS	Model (a)	Model (b)
+			
+interaction	interaction	-8,085.14**	
+		(2,619.21)	
+salmon	salmon	-0.68	
+		(1.12)	
+shrimp	shrimp	1.55**	
+		(0.18)	
+intm	intm		-8,085.14**
+			(2,619.21)
+shm	shm		1.55**
+			(0.18)
+salm	salm		-0.68
+			(1.12)
+Constant	Constant	200,542.50	-861.76
+		(247,823.77)	(1,186.06)
+			
+Observations		1,200	1,200
+R-squared		1.00	0.43
+Robust standard errors in parentheses			
+** p<0.01, * p<0.05			

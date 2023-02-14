@@ -1,0 +1,160 @@
+		(1)
+VARIABLES	LABELS	Model (b)
+		
+intm	intm	-8,085.14**
+		(2,619.21)
+shm	shm	1.55**
+		(0.18)
+salm	salm	-0.68
+		(1.12)
+2.firm	firm = 2	-0.00
+		(0.01)
+3.firm	firm = 3	-0.01
+		(0.01)
+4.firm	firm = 4	-0.00
+		(0.01)
+5.firm	firm = 5	-0.00
+		(0.01)
+6.firm	firm = 6	-0.01
+		(0.01)
+7.firm	firm = 7	-0.00
+		(0.01)
+8.firm	firm = 8	0.00
+		(0.01)
+9.firm	firm = 9	-0.00
+		(0.00)
+10.firm	firm = 10	-0.00
+		(0.01)
+11.firm	firm = 11	-0.00
+		(0.01)
+12.firm	firm = 12	-0.00
+		(0.01)
+13.firm	firm = 13	-0.01
+		(0.01)
+14.firm	firm = 14	-0.01
+		(0.00)
+15.firm	firm = 15	-0.01
+		(0.01)
+16.firm	firm = 16	-0.01
+		(0.01)
+17.firm	firm = 17	0.00
+		(0.01)
+18.firm	firm = 18	-0.00
+		(0.01)
+19.firm	firm = 19	0.00
+		(0.01)
+20.firm	firm = 20	-0.02
+		(0.02)
+21.firm	firm = 21	-0.00
+		(0.01)
+22.firm	firm = 22	-0.01
+		(0.01)
+23.firm	firm = 23	0.00
+		(0.01)
+24.firm	firm = 24	-0.01
+		(0.01)
+25.firm	firm = 25	0.01**
+		(0.00)
+26.firm	firm = 26	-0.01
+		(0.01)
+27.firm	firm = 27	-0.01
+		(0.01)
+28.firm	firm = 28	-0.00
+		(0.01)
+29.firm	firm = 29	0.00**
+		(0.00)
+30.firm	firm = 30	-0.00
+		(0.01)
+31.firm	firm = 31	-0.01
+		(0.01)
+32.firm	firm = 32	-0.01
+		(0.01)
+33.firm	firm = 33	-0.00
+		(0.01)
+34.firm	firm = 34	-0.01
+		(0.01)
+35.firm	firm = 35	0.01
+		(0.01)
+36.firm	firm = 36	-0.00
+		(0.01)
+37.firm	firm = 37	-0.01
+		(0.02)
+38.firm	firm = 38	0.00
+		(0.01)
+39.firm	firm = 39	-0.00
+		(0.01)
+40.firm	firm = 40	-0.01
+		(0.01)
+41.firm	firm = 41	-0.00**
+		(0.00)
+42.firm	firm = 42	-0.01
+		(0.01)
+43.firm	firm = 43	-0.01
+		(0.01)
+44.firm	firm = 44	-0.00
+		(0.01)
+45.firm	firm = 45	0.02**
+		(0.00)
+46.firm	firm = 46	-0.01**
+		(0.00)
+47.firm	firm = 47	-0.00
+		(0.01)
+48.firm	firm = 48	-0.00
+		(0.01)
+49.firm	firm = 49	-0.00
+		(0.01)
+50.firm	firm = 50	-0.01
+		(0.01)
+2.month	month = 2	187.75
+		(260.77)
+3.month	month = 3	185.67
+		(299.50)
+4.month	month = 4	436.28
+		(479.01)
+5.month	month = 5	716.39
+		(559.51)
+6.month	month = 6	807.08
+		(734.18)
+7.month	month = 7	1,114.76
+		(809.15)
+8.month	month = 8	1,313.64
+		(1,027.90)
+9.month	month = 9	1,424.86
+		(1,117.41)
+10.month	month = 10	954.72
+		(1,052.78)
+11.month	month = 11	966.73
+		(1,231.69)
+12.month	month = 12	947.87
+		(1,200.56)
+13.month	month = 13	954.54
+		(1,306.76)
+14.month	month = 14	832.93
+		(1,348.04)
+15.month	month = 15	802.43
+		(1,412.62)
+16.month	month = 16	799.59
+		(1,461.66)
+17.month	month = 17	643.08
+		(1,473.74)
+18.month	month = 18	1,179.73
+		(1,655.16)
+19.month	month = 19	1,086.06
+		(1,700.91)
+20.month	month = 20	1,118.83
+		(1,813.43)
+21.month	month = 21	1,209.32
+		(1,933.26)
+22.month	month = 22	1,075.45
+		(2,141.84)
+23.month	month = 23	997.25
+		(2,160.17)
+24.month	month = 24	927.48
+		(2,050.33)
+Constant	Constant	-861.76
+		(1,186.06)
+		
+Observations		1,200
+R-squared		0.43
+Robust standard errors in parentheses		
+** p<0.01, * p<0.05		
