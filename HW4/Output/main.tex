@@ -1,0 +1,94 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage[letterpaper, portrait, margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{mathtools}  
+\usepackage{diffcoeff} 
+\usepackage{hyperref}
+\usepackage{physics}
+\hypersetup{
+colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=blue,
+    citecolor=black,
+}
+\usepackage{natbib}
+
+\usepackage{titlesec}
+\usepackage{chngcntr}
+
+\counterwithin*{equation}{section}
+\counterwithin*{equation}{subsection}
+
+
+  
+\title{Homework 4}
+\author{Economics 7103}
+\date{Spring semester 2023}
+  
+\begin{document}
+  
+\maketitle
+\section{}
+See below:
+\begin{figure}[ht]
+    \centering
+    \includegraphics{HW4Q1-3.pdf}
+    \caption{Treatment vs Control}
+    \label{fig:Fig1}
+\end{figure}
+
+
+\section{}
+The estimate is -9591.35. This means that the treatment group, on average, reduced the bycatch by that amount right after being treated.
+\newline
+\newline
+
+\section{}
+The different results are as follows:
+\begin{table}[ht]
+    \centering
+    \input{python.tex}
+    \caption{Results from different models}
+    \label{tab:my_label}
+\end{table}
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+
+\section{Stata}
+\begin{table}[ht]
+    \centering
+    \input{hw4c.tex}
+    \caption{Stata results}
+    \label{tab:my_label}
+    intm = demeaned interaction term
+    shm = demeaned shrimp term
+    salm = demeaned salmon term
+\end{table}
+
+
+
+
+
+
+
+\end{document}
