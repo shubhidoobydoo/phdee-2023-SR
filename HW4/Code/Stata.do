@@ -27,7 +27,7 @@ reg bycatch after##treated salmon shrimp before after i.firm i.month, cluster(fi
 
 estimates store hw4a
 outreg2 [hw4a] using hw4a.tex, label 2aster tex(frag) dec(2) replace ctitle("Model (a)")
-
+	
 *Q2
 *Within estimation
 

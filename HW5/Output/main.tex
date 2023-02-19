@@ -1,0 +1,104 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage[letterpaper, portrait, margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{mathtools}  
+\usepackage{diffcoeff} 
+\usepackage{hyperref}
+\usepackage{physics}
+\hypersetup{
+colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=blue,
+    citecolor=black,
+}
+\usepackage{natbib}
+
+\usepackage{titlesec}
+\usepackage{chngcntr}
+
+\counterwithin*{equation}{section}
+\counterwithin*{equation}{subsection}
+
+
+  
+\title{Homework 5}
+\author{Economics 7103}
+\date{Spring semester 2023}
+  
+\begin{document}
+
+\maketitle
+\section{Python}
+\subsection{}
+The coefficient on mpg is -22.21. This means that an addition in miles per gallon decreases the price of vehicle by that amount.
+\newline
+
+\subsection{}
+There are multiple forms of endogeneity to be concerned about. The mpg term may be correlated with multiple other characteristics. Eg: luxury vehicles which may have other better characteristics (better tech etc) may have low mpg but high price, causing a bias.
+\newline
+\newline
+
+\subsection{}
+\subsubsection{}See column 1 in Table 1
+\subsubsection{}See column 2 in Table 1
+\subsubsection{}See column 3 in Table 1
+
+\begin{table}[!ht] \centering
+\begin{tabular}{@{\extracolsep{5pt}}lccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+& \multicolumn{3}{c}{\textit{Dependent variable: Price}} \
+\cr \cline{1-4}
+\\[-1.8ex] & (1) & (2) & (3) \\
+\hline \\[-1.8ex]
+ MPG & 150.43$^{**}$ & 157.06$^{**}$ & 10165.74$^{}$ \\
+  & (62.16) & (62.02) & (26559.83) \\
+ Car type (Sedan) & -4676.09$^{***}$ & -4732.67$^{***}$ & -90156.39$^{}$ \\
+  & (574.37) & (573.29) & (226687.35) \\
+ Cons & 17627.64$^{***}$ & 17441.23$^{***}$ & -264024.20$^{}$ \\
+  & (1754.87) & (1751.12) & (746919.27) \\
+\hline \\[-1.8ex]
+ F-test for Stage 1 & 75.46 & 75.77 & 0.0 \\
+ Observations & 1,000 & 1,000 & 1,000 \\
+ $R^2$ & 0.20 & 0.20 & 0.19 \\
+ Adjusted $R^2$ & 0.19 & 0.19 & 0.19 \\
+ Residual Std. Error & 3481.08 & 3480.12 & 3491.04  \\
+ F Statistic & 121.62$^{***}$  & 121.97$^{***}$  & 118.09$^{***}$  \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
+\caption{2SLS results for Weight, Weight$^2$ and Height IVs}
+\end{table}
+
+\subsubsection{}
+The exclusion condition states that the the excluded variable should not be correlated with the error term in the price regression and should only impact price through its impact on mpg. By this assumption, the current instruments, especially height, are not reasonable. 
+
+\subsubsection{}
+The Estimates for 1. and 2. are extremely similar. However, the estimates for 3. are very different. Column 3. also has a significantly low F statistic for stage 1 which tells us that height is a poor IV. 
+
+
+\subsection{}
+GMM coefficient for mpg is 150.43 and the std error is 63.05. This is not too different from what was observed previously.
+
+
+\section{Stata}
+
+\subsection{}
+\begin{table}[ht!]
+    \centering
+    \input{q1.tex}
+    \caption{Limited Information Maximum Likelihood Estimate with weight IV}
+\end{table}
+
+\subsection{}
+The 5\% critical value for LIML estimate is 37.42. The effective F stat is 78.36. In general, the larger the MOP effective F statistic, the better the fit. Hence, we can conclude that weight is an acceptable IV. 
+
+
+\end{document}
