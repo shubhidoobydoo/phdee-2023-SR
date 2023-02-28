@@ -1,0 +1,15 @@
+Dependent Variable: Car	
+	(1)
+VARIABLES	Second-Stage Results: RD as IV
+	
+mpg	-13.780
+	(16.713)
+car	-3,274.540***
+	(262.455)
+Constant	22,245.661***
+	(495.148)
+	
+Observations	1,000
+R-squared	0.193
+Standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	
