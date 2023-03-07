@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage[letterpaper, portrait, margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{mathtools}  
+\usepackage{diffcoeff} 
+\usepackage{hyperref}
+\usepackage{physics}
+\hypersetup{
+colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=blue,
+    citecolor=black,
+}
+\usepackage{natbib}
+
+\usepackage{titlesec}
+\usepackage{chngcntr}
+
+\counterwithin*{equation}{section}
+\counterwithin*{equation}{subsection}
+
+
+  
+\title{Homework 7}
+\author{Economics 7103}
+\date{Spring semester 2023}
+  
+\begin{document}
+
+\maketitle
+\section{}
+\subsection{}
+The coefficient on treatment variable is -0.065. The robust standard error is 0.0013.
+
+\subsection{}
+The coefficient is -0.068 and the robust standard error is 0.0009. 
+
+\subsection{}
+In this dataset, while there are exact matches on the basis of the zone, it doesn't really tell us anything about any other individualistic factors that may influence the matching model. This is especially concerning since we only have one nearest neighbor.
+\newline
+\newline
+There's also no indicator for year, as electricity consumption habits may change over time in one location. Eg: New people living there. 
+
+\section{}
+\subsection{}
+After adding back month 1 and 2, the new coefficient for treatment variable is 0.0228 and the robust standard error is 0.0027. Without adding them back, the treatment variable gets dropped due to collinearity. 
+\newline
+\newline
+This makes the treatment effect more positive. 
+Having the indicator variable for year helps account for the changes that may happen over longer periods of time as compared to days/months. 
+
+\section{}
+\subsection{}
+The coefficient on the treatment variable is 0.0085 with a robust standard error of 0.0164. 
+
+\subsection{}
+The standard error may not be believable because teffects nnmatch calculates the standard error in a weird way, making it unreliable. This might also make the regression's standard error inflated.  
+\newline
+\newline
+Besides, the residual is also really large.  
+
+\end{document}
